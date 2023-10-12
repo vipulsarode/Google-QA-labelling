@@ -1,9 +1,21 @@
 # Google-QA-labelling
 
-In our quest to enhance the quality and relevance of question-answer interactions, we turned to the invaluable Google-QUEST Q&A Labeling dataset and harnessed the power of artificial intelligence. We chose BERT, an uncased pre-trained model, to generate dense representations of various texts. These embeddings were then thoughtfully combined and fed into dense layers with tanh activation, with dropout in place to tackle overfitting.
+In this project, the focus has been on Google QUEST Q&A Labeling, an innovative Natural Language Processing (NLP) project aimed at improving the quality and relevance of question-answer interactions in various online platforms. The key points covered include:
 
-To efficiently distill the information from these embedded vectors, we implemented a BiLSTM architecture. We employed ReLU activation in the dense layers and sigmoid activation in the output layer to ensure that the probabilities were accurately preserved.
+Introduction: The document starts by introducing the significance of NLP in enabling computers to understand and respond to human language. It highlights the challenge of subjective questions and introduces the Google QUEST Q&A Labeling project as a solution to enhance the quality of online Q&A interactions.
 
-Addressing the issue of label imbalance, we performed random oversampling at two different rates, 5% and 15%, and the results were quite favorable after training each model for a mere 10 epochs. This approach has brought us significant strides in improving the question-answer experience, bridging the gap in traditional Q&A systems with the help of cutting-edge AI techniques.
+About Dataset: It provides details about the Google QUEST Q&A Labeling dataset, which consists of over 6,000 question-answer pairs from diverse online platforms, manually annotated with 30 labels across nine categories to assess content quality.
+
+Exploratory Data Analysis (EDA): This section discusses the data analysis process, showing the distribution of data, category percentages, and the distribution of hosts in the training data. It also presents a heatmap illustrating the correlation between different tags.
+
+Architecture and Model Training Results: It delves into the models used for this project. The baseline model employed BERT embeddings and achieved certain accuracies, while the final model utilized BiLSTM architecture and handled label imbalances. Results and architectural details are provided.
+
+Prediction: This section briefly mentions the prediction process, emphasizing the importance of calibrated probabilities for the model's output.
+
+Conclusion: The document highlights the benefits of Q&A tags labeling, such as improved accuracy, quality assessment, topic modeling, and personalization of responses.
+
+Future Use Cases: It discusses potential future use cases for the Google QUEST Q&A Labeling NLP model, including improved search engines, enhanced customer support, online education, content moderation, personalized recommendations, corporate knowledge bases, medical consultations, and sentiment analysis.
+
+In summary, this document explores the development, application, and potential impact of the Google QUEST Q&A Labeling NLP model, highlighting its contributions to improving the quality of information retrieval and user experiences across various domains.
 
 This project has been done by - Vipul Sarode, Sharvil Arjunwadkar, Aadil Zikre, Gowtham Behara and Sai Venkata
