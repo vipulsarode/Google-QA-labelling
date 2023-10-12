@@ -6,4 +6,4 @@ To efficiently distill the information from these embedded vectors, we implement
 
 Addressing the issue of label imbalance, we performed random oversampling at two different rates, 5% and 15%, and the results were quite favorable after training each model for a mere 10 epochs. This approach has brought us significant strides in improving the question-answer experience, bridging the gap in traditional Q&A systems with the help of cutting-edge AI techniques.
 
-This project has been done by - Vipul Sarode, Sharvil Arjunwadkar, Aadil Zikre
+This project has been done by - Vipul Sarode, Sharvil Arjunwadkar, Aadil Zikre, Gowtham Behara and Sai Venkata
