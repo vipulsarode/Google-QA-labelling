@@ -15,5 +15,3 @@ Conclusion: The project highlights the benefits of Q&A tags labeling, such as im
 Future Use Cases: It discusses potential future use cases for the Google QUEST Q&A Labeling NLP model, including improved search engines, enhanced customer support, online education, content moderation, personalized recommendations, corporate knowledge bases, medical consultations, and sentiment analysis.
 
 In summary, this project explores the development, application, and potential impact of the Google QUEST Q&A Labeling NLP model, highlighting its contributions to improving the quality of information retrieval and user experiences across various domains.
-
-This project has been done by - Vipul Sarode, Sharvil Arjunwadkar, Aadil Zikre, Gowtham Behara and Sai Venkata as a part of the course IST 664 Natural Language Processing.
